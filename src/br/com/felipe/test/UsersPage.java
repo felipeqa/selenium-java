@@ -1,5 +1,6 @@
 package br.com.felipe.test;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -9,6 +10,12 @@ public class UsersPage {
 
     public UsersPage(WebDriver driver) {
         this.driver = driver;
+    }
+
+    public void removeUser(){
+        driver.findElement(By.cssSelector("button[type='submit']")).click();
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
     }
 
 

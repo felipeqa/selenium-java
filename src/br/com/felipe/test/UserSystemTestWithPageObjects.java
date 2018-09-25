@@ -5,7 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import static org.junit.Assert.assertTrue;
+
+import static junit.framework.TestCase.assertFalse;
+import static junit.framework.TestCase.assertTrue;
 
 
 public class UserSystemTestWithPageObjects {
@@ -28,7 +30,7 @@ public class UserSystemTestWithPageObjects {
     }
 
     @Test
-    public void newUser(){
+    public void addNewUser(){
 
         users.newUserLink().register("Felipe Rodrigues", "felipe@test.com");
         assertTrue(users.existOnList("Felipe Rodrigues", "felipe@test.com"));
@@ -50,6 +52,16 @@ public class UserSystemTestWithPageObjects {
         assertTrue(users.validateRequiredMailMessage("E-mail obrigatorio!"));
 
     }
+
+
+    @Test
+    public void removeUser(){
+        addNewUser();
+        users.removeUser();
+        assertFalse(users.existOnList("Felipe Rodrigues", "felipe@test.com"));
+
+    }
+
 
 
 }
