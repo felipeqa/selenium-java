@@ -1,24 +1,33 @@
 package br.com.felipe.test;
 
-import org.apache.http.util.Asserts;
-import org.junit.jupiter.api.Test;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UserSystemTest {
 
+    private WebDriver driver;
+
+    @Before
+    public void initialize(){
+        driver = new FirefoxDriver();
+        driver.get("http://localhost:8080/usuarios/new");
+    }
+
+    @After
+    public void close(){
+        driver.close();
+    }
+
     @Test
     public void newUser(){
-
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://localhost:8080/usuarios/new");
 
         WebElement name = driver.findElement(By.name("usuario.nome"));
         WebElement email = driver.findElement(By.name("usuario.email"));
@@ -43,15 +52,10 @@ public class UserSystemTest {
         assertTrue(nameExist);
         assertTrue(emailExist);
 
-        driver.close();
-
     }
 
     @Test
     public void newUserNotName(){
-
-        WebDriver driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/usuarios/new");
 
         WebElement email = driver.findElement(By.name("usuario.email"));
 
@@ -66,14 +70,10 @@ public class UserSystemTest {
 
         assertTrue(driver.getPageSource().contains("Nome obrigatorio!"));
 
-        driver.close();
     }
 
     @Test
     public void newUserNotNameANdEmail(){
-
-        WebDriver driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/usuarios/new");
 
         WebElement email = driver.findElement(By.name("usuario.email"));
 
@@ -88,7 +88,6 @@ public class UserSystemTest {
         assertTrue(driver.getPageSource().contains("Nome obrigatorio!"));
         assertTrue(driver.getPageSource().contains("E-mail obrigatorio!"));
 
-        driver.close();
     }
 
 
