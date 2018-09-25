@@ -7,9 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import static org.junit.Assert.assertTrue;
 
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UserSystemTest {
 
