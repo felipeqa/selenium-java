@@ -27,4 +27,15 @@ public class NewAuctionsPage {
 
         productNameField.submit();
     }
+
+    public boolean validateRequiredMessage(String message) {
+
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return driver.getPageSource().contains(message);
+
+    }
 }

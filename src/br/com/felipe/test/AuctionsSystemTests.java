@@ -40,4 +40,22 @@ public class AuctionsSystemTests {
         newAuction.registerAuction("Geladeira", 200, "felipe", false);
         auctions.existOnListAuctions("Geladeira", 200, "felipe", false);
     }
+
+    @Test
+    public void addNewAuctionWithoutName(){
+
+        auctions = home.auctionsLink();
+        newAuction =  auctions.newAuctionLink();
+        newAuction.registerAuction("", 200, "felipe", false);
+        newAuction.validateRequiredMessage("Nome obrigatorio!");
+    }
+
+    @Test
+    public void addNewAuctionWithoutInitialValue(){
+
+        auctions = home.auctionsLink();
+        newAuction =  auctions.newAuctionLink();
+        newAuction.registerAuction("Geladeira",0, "felipe", false);
+        newAuction.validateRequiredMessage("Valor inicial deve ser maior que zero!");
+    }
 }
