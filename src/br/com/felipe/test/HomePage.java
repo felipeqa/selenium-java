@@ -20,5 +20,8 @@ public class HomePage {
         return new UsersPage(driver);
     }
 
-//    public AuctionsPage
+    public AuctionsPage auctionsLink() {
+         driver.findElement(By.linkText("Leilões")).click();
+         return new AuctionsPage(driver);
+    }
 }

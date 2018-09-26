@@ -14,7 +14,7 @@ import static junit.framework.TestCase.assertTrue;
 
 public class UserSystemTestWithPageObjects {
 
-    private static WebDriver driver;
+    private WebDriver driver;
     private HomePage home;
     private UsersPage users;
 
