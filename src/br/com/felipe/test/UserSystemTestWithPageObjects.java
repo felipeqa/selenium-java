@@ -26,7 +26,7 @@ public class UserSystemTestWithPageObjects {
         driver = new FirefoxDriver();
         home = new HomePage(driver);
         home.visitHome();
-        users = home.UsersLink();
+        users = home.usersLink();
     }
 
     @After

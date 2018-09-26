@@ -15,8 +15,10 @@ public class HomePage {
         driver.get("http://localhost:8080/");
     }
 
-    public UsersPage UsersLink(){
+    public UsersPage usersLink(){
         driver.findElement(By.linkText("Usuários")).click();
         return new UsersPage(driver);
     }
+
+//    public AuctionsPage
 }
