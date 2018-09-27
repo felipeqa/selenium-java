@@ -2,8 +2,6 @@ package br.com.felipe.test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 public class AuctionsPage {
 
@@ -18,9 +16,9 @@ public class AuctionsPage {
         return new NewAuctionsPage(driver);
     }
 
-    public ViewAuctionsPage viewAuctionLink(){
+    public DetailsAuctionsPage viewAuctionLink(){
         driver.findElement(By.linkText("exibir")).click();
-        return new ViewAuctionsPage(driver);
+        return new DetailsAuctionsPage(driver);
     }
 
     public boolean existOnListAuctions(String productName, double initialValue, String user, boolean used ){

@@ -12,7 +12,7 @@ public class SubmitBidTests {
     private WebDriver driver;
     private HomePage home ;
     private UsersPage newUser;
-    private ViewAuctionsPage bidRegister;
+    private DetailsAuctionsPage bidRegister;
 
     @Before
     public void initialize(){
