@@ -57,4 +57,9 @@ public class UsersPage {
         return driver.getPageSource().contains(message);
 
     }
+
+    public NewUserPage editUserLink() {
+        driver.findElement(By.linkText("editar")).click();
+        return new NewUserPage(driver);
+    }
 }

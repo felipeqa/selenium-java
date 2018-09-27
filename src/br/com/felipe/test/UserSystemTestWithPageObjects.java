@@ -24,6 +24,7 @@ public class UserSystemTestWithPageObjects {
     @Before
     public void initialize(){
         driver = new FirefoxDriver();
+        driver.get("http://localhost:8080/apenas-teste/limpa");
         home = new HomePage(driver);
         home.visitHome();
         users = home.usersLink();
@@ -32,7 +33,9 @@ public class UserSystemTestWithPageObjects {
     @After
     public void close(){
 
-        if (testName.getMethodName().equals("addNewUser")) users.removeUser();
+        if (testName.getMethodName().equals("addNewUser") || testName.getMethodName().equals("editUser")){
+            users.removeUser();
+        }
         driver.close();
 
     }
@@ -65,6 +68,15 @@ public class UserSystemTestWithPageObjects {
         addNewUser();
         users.removeUser();
         assertFalse(users.existOnList("Felipe Rodrigues", "felipe@test.com"));
+    }
+
+    @Test
+    public void editUser(){
+
+        addNewUser();
+        users.editUserLink().editUser("luis", "luis@luis");
+        assertTrue(users.existOnList("luis", "luis@luis"));
+
     }
 
 }

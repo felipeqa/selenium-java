@@ -23,4 +23,20 @@ public class NewUserPage {
         textEmail.submit();
 
     }
+
+
+    public void editUser(String name, String email){
+
+        WebElement textName = driver.findElement(By.name("usuario.nome"));
+        WebElement textEmail = driver.findElement(By.name("usuario.email"));
+
+        textName.clear();
+        textEmail.clear();
+
+        textName.sendKeys(name);
+        textEmail.sendKeys(email);
+
+        textEmail.submit();
+
+    }
 }
