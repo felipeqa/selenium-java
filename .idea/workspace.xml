@@ -197,7 +197,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538068801721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538071650554" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -225,8 +225,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserSystemTestWithPageObjects">
-    <configuration name="AuctionsSystemTests.addNewAuctionWithoutInitialValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuctionsSystemTests">
+    <configuration name="AuctionsSystemTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes-de-sistemas" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +236,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.felipe.test" />
       <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.AuctionsSystemTests" />
-      <option name="METHOD_NAME" value="addNewAuctionWithoutInitialValue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,18 +304,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutName" />
-      <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutInitialValue" />
       <item itemvalue="JUnit.UserSystemTestWithPageObjects.editUser" />
       <item itemvalue="JUnit.UserSystemTestWithPageObjects.newUserNotName" />
       <item itemvalue="JUnit.UserSystemTestWithPageObjects" />
+      <item itemvalue="JUnit.AuctionsSystemTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuctionsSystemTests" />
         <item itemvalue="JUnit.UserSystemTestWithPageObjects" />
         <item itemvalue="JUnit.UserSystemTestWithPageObjects.newUserNotName" />
         <item itemvalue="JUnit.UserSystemTestWithPageObjects.editUser" />
         <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutName" />
-        <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutInitialValue" />
       </list>
     </recent_temporary>
   </component>

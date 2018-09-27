@@ -18,6 +18,7 @@ public class AuctionsSystemTests {
     public void initialize(){
 
         driver = new FirefoxDriver();
+        driver.get("http://localhost:8080/apenas-teste/limpa");
         home = new HomePage(driver);
         home.visitHome();
         UsersPage user = home.usersLink();
