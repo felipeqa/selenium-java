@@ -18,6 +18,11 @@ public class AuctionsPage {
         return new NewAuctionsPage(driver);
     }
 
+    public ViewAuctionsPage viewAuctionLink(){
+        driver.findElement(By.linkText("exibir")).click();
+        return new ViewAuctionsPage(driver);
+    }
+
     public boolean existOnListAuctions(String productName, double initialValue, String user, boolean used ){
 
         try {

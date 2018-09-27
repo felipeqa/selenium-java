@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf84d53d-fb64-43ca-b7e4-0c47f01deced" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/felipe/test/ViewAuctionsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/NewUserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/NewUserPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/UserSystemTestWithPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/UserSystemTestWithPageObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/UsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/UsersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,23 +57,23 @@
     <session id="157450923">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="1888" />
+          <entry key="java" value="2824" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1888" />
+          <entry key="JAVA" value="2824" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -92,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsSystemTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,19 +102,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UsersPage.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="585">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewAuctionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/ViewAuctionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,13 +203,15 @@
         <option value="$PROJECT_DIR$/src/TesteAutomatizado.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTest.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/NewAuctionsPage.java" />
-        <option value="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsSystemTests.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/EditUserPage.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/UsersPage.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java" />
         <option value="$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java" />
+        <option value="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsSystemTests.java" />
+        <option value="$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java" />
+        <option value="$PROJECT_DIR$/src/br/com/felipe/test/ViewAuctionsPage.java" />
+        <option value="$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java" />
       </list>
     </option>
   </component>
@@ -173,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,34 +244,46 @@
             </path>
             <path>
               <item name="testes-de-sistemas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes-de-sistemas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes-de-sistemas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testes-de-sistemas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testes-de-sistemas" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538071650554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538078654257" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.com.felipe.test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.felipe.test" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.felipe.test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AuctionsSystemTests">
+  <component name="RunManager" selected="JUnit.UserSystemTestWithPageObjects">
     <configuration name="AuctionsSystemTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes-de-sistemas" />
       <extension name="coverage">
@@ -240,7 +313,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuctionsSystemTests.addNewAuctionWithoutName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubmitBidTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testes-de-sistemas" />
       <extension name="coverage">
         <pattern>
@@ -249,9 +322,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.felipe.test" />
-      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.AuctionsSystemTests" />
-      <option name="METHOD_NAME" value="addNewAuctionWithoutName" />
+      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.SubmitBidTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitBidTests.submitBid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes-de-sistemas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.felipe.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.felipe.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.SubmitBidTests" />
+      <option name="METHOD_NAME" value="submitBid" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testes-de-sistemas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.felipe.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.felipe.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.UserSystemTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,52 +371,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserSystemTestWithPageObjects.editUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testes-de-sistemas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.felipe.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.felipe.test" />
-      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.UserSystemTestWithPageObjects" />
-      <option name="METHOD_NAME" value="editUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserSystemTestWithPageObjects.newUserNotName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testes-de-sistemas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.felipe.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.felipe.test" />
-      <option name="MAIN_CLASS_NAME" value="br.com.felipe.test.UserSystemTestWithPageObjects" />
-      <option name="METHOD_NAME" value="newUserNotName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutName" />
-      <item itemvalue="JUnit.UserSystemTestWithPageObjects.editUser" />
-      <item itemvalue="JUnit.UserSystemTestWithPageObjects.newUserNotName" />
       <item itemvalue="JUnit.UserSystemTestWithPageObjects" />
       <item itemvalue="JUnit.AuctionsSystemTests" />
+      <item itemvalue="JUnit.SubmitBidTests.submitBid" />
+      <item itemvalue="JUnit.SubmitBidTests" />
+      <item itemvalue="JUnit.UserSystemTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuctionsSystemTests" />
         <item itemvalue="JUnit.UserSystemTestWithPageObjects" />
-        <item itemvalue="JUnit.UserSystemTestWithPageObjects.newUserNotName" />
-        <item itemvalue="JUnit.UserSystemTestWithPageObjects.editUser" />
-        <item itemvalue="JUnit.AuctionsSystemTests.addNewAuctionWithoutName" />
+        <item itemvalue="JUnit.UserSystemTest" />
+        <item itemvalue="JUnit.SubmitBidTests" />
+        <item itemvalue="JUnit.AuctionsSystemTests" />
+        <item itemvalue="JUnit.SubmitBidTests.submitBid" />
       </list>
     </recent_temporary>
   </component>
@@ -333,42 +402,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 11h 42m 07s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests_submitBid - 2018.09.27 at 16h 24m 49s.xml">
+      <configuration name="SubmitBidTests.submitBid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 11h 42m 47s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests_submitBid - 2018.09.27 at 16h 28m 22s.xml">
+      <configuration name="SubmitBidTests.submitBid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 11h 43m 24s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests_submitBid - 2018.09.27 at 16h 30m 22s.xml">
+      <configuration name="SubmitBidTests.submitBid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 11h 46m 13s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests_submitBid - 2018.09.27 at 16h 32m 27s.xml">
+      <configuration name="SubmitBidTests.submitBid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 14h 11m 02s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests_submitBid - 2018.09.27 at 16h 54m 52s.xml">
+      <configuration name="SubmitBidTests.submitBid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 14h 12m 31s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests - 2018.09.27 at 17h 00m 19s.xml">
+      <configuration name="SubmitBidTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 14h 14m 40s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="AuctionsSystemTests - 2018.09.27 at 17h 02m 42s.xml">
+      <configuration name="AuctionsSystemTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_editUser - 2018.09.27 at 14h 15m 18s.xml">
-      <configuration name="UserSystemTestWithPageObjects.editUser" configurationId="JUnit" />
+    <history-entry file="SubmitBidTests - 2018.09.27 at 17h 03m 00s.xml">
+      <configuration name="SubmitBidTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects_newUserNotName - 2018.09.27 at 14h 18m 12s.xml">
-      <configuration name="UserSystemTestWithPageObjects.newUserNotName" configurationId="JUnit" />
+    <history-entry file="UserSystemTest - 2018.09.27 at 17h 03m 23s.xml">
+      <configuration name="UserSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserSystemTestWithPageObjects - 2018.09.27 at 14h 18m 46s.xml">
+    <history-entry file="UserSystemTestWithPageObjects - 2018.09.27 at 17h 04m 07s.xml">
       <configuration name="UserSystemTestWithPageObjects" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1315" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31412786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31965274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,7 +459,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36335403" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -514,67 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" lean-forward="true" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewAuctionsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/EditUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsSystemTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/EditUserPage.java" />
     <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UsersPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -582,10 +600,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/NewAuctionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/ViewAuctionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/AuctionsSystemTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/UserSystemTestWithPageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="-210">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
