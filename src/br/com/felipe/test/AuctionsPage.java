@@ -36,19 +36,16 @@ public class AuctionsPage {
 
     public boolean existOnListAuctions(String productName, double initialValue, String user, boolean used ){
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         boolean containsAuction = new WebDriverWait(driver, 10)
                 .until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), productName));
 
-        return  driver.getPageSource().contains(productName) &&
-                driver.getPageSource().contains(String.valueOf(initialValue)) &&
-                driver.getPageSource().contains(user) &&
-                driver.getPageSource().contains(used ? "Sim" : "Não");
+        if(containsAuction){
+            return  driver.getPageSource().contains(productName) &&
+                    driver.getPageSource().contains(String.valueOf(initialValue)) &&
+                    driver.getPageSource().contains(user) &&
+                    driver.getPageSource().contains(used ? "Sim" : "Não");
+        }
 
+       return false;
     }
 }

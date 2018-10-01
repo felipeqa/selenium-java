@@ -3,10 +3,13 @@ package br.com.felipe.test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UsersPage {
 
     private WebDriver driver;
+    private WebDriverWait waitForElement = new WebDriverWait(driver, 10);
 
     public UsersPage(WebDriver driver) {
         this.driver = driver;
@@ -49,11 +52,7 @@ public class UsersPage {
 
     public boolean validateRequiredMailMessage(String message) {
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        waitForElement.until(ExpectedConditions.textToBePresentInElement(By.id("content"), message));
         return driver.getPageSource().contains(message);
 
     }

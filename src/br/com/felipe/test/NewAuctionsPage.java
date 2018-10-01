@@ -3,11 +3,14 @@ package br.com.felipe.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NewAuctionsPage {
 
     private WebDriver driver;
+    private WebDriverWait waitForElement = new WebDriverWait(driver, 10);
 
     public NewAuctionsPage(WebDriver driver){
         this.driver = driver;
@@ -30,11 +33,9 @@ public class NewAuctionsPage {
 
     public boolean validateRequiredMessage(String message) {
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        waitForElement.until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), message));
+
         return driver.getPageSource().contains(message);
 
     }
