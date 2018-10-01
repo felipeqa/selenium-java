@@ -2,6 +2,11 @@ package br.com.felipe.test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class AuctionsPage {
 
@@ -21,6 +26,14 @@ public class AuctionsPage {
         return new DetailsAuctionsPage(driver);
     }
 
+    // select element by index 0
+    public DetailsAuctionsPage detailsAuction(int index) {
+        List<WebElement> elements = driver.findElements(By.linkText("exibir"));
+        elements.get(index - 1).click();
+
+        return new DetailsAuctionsPage(driver);
+    }
+
     public boolean existOnListAuctions(String productName, double initialValue, String user, boolean used ){
 
         try {
@@ -28,6 +41,9 @@ public class AuctionsPage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        boolean containsAuction = new WebDriverWait(driver, 10)
+                .until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), productName));
 
         return  driver.getPageSource().contains(productName) &&
                 driver.getPageSource().contains(String.valueOf(initialValue)) &&

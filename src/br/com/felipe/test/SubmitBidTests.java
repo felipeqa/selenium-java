@@ -20,8 +20,7 @@ public class SubmitBidTests {
         driver.get("http://localhost:8080/apenas-teste/limpa");
         home = new HomePage(driver);
         home.visitHome();
-        newUser = home.usersLink();
-        newUser.newUserLink().register("Felipe", "felipe@felipe");
+        home.usersLink().newUserLink().register("Felipe", "felipe@felipe");
 
         try {
             Thread.sleep(500);
@@ -29,7 +28,7 @@ public class SubmitBidTests {
             e.printStackTrace();
         }
 
-        newUser.newUserLink().register("Luis", "luis@luis");
+        home.usersLink().newUserLink().register("Luis", "luis@luis");
         home.auctionsLink().newAuctionLink().registerAuction("Geladeira", 50
                 ,"Felipe", false);
     }
@@ -42,6 +41,13 @@ public class SubmitBidTests {
     @Test
     public void submitBid(){
         bidRegister = home.auctionsLink().viewAuctionLink();
+        bidRegister.bidRegister("Luis", 200);
+        assertTrue(bidRegister.bidValidate("Luis", 200));
+    }
+
+    @Test
+    public void submitBidWithDetailsIndex(){
+        bidRegister = home.auctionsLink().detailsAuction(1);
         bidRegister.bidRegister("Luis", 200);
         assertTrue(bidRegister.bidValidate("Luis", 200));
     }
