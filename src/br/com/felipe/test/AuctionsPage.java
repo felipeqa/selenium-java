@@ -11,9 +11,11 @@ import java.util.List;
 public class AuctionsPage {
 
     private WebDriver driver;
+    private WebDriverWait waitForElement;
 
     public AuctionsPage(WebDriver driver){
         this.driver = driver;
+        this.waitForElement = new WebDriverWait(driver, 10);
     }
 
     public NewAuctionsPage newAuctionLink(){
@@ -36,8 +38,8 @@ public class AuctionsPage {
 
     public boolean existOnListAuctions(String productName, double initialValue, String user, boolean used ){
 
-        boolean containsAuction = new WebDriverWait(driver, 10)
-                .until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), productName));
+        boolean containsAuction = waitForElement
+                .until(ExpectedConditions.textToBePresentInElement(By.id("content"), productName));
 
         if(containsAuction){
             return  driver.getPageSource().contains(productName) &&

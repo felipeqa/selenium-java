@@ -9,10 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class UsersPage {
 
     private WebDriver driver;
-    private WebDriverWait waitForElement = new WebDriverWait(driver, 10);
+    private WebDriverWait waitForElement;
+
 
     public UsersPage(WebDriver driver) {
         this.driver = driver;
+        this.waitForElement = new WebDriverWait(driver, 10);
     }
 
     public void removeUser(){

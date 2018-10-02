@@ -10,10 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class NewAuctionsPage {
 
     private WebDriver driver;
-    private WebDriverWait waitForElement = new WebDriverWait(driver, 10);
+    private WebDriverWait waitForElement;
 
     public NewAuctionsPage(WebDriver driver){
         this.driver = driver;
+        this.waitForElement = new WebDriverWait(driver, 10);
     }
 
     public void registerAuction(String productName, double initialValue, String user, boolean used ){
@@ -34,7 +35,7 @@ public class NewAuctionsPage {
     public boolean validateRequiredMessage(String message) {
 
 
-        waitForElement.until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), message));
+        waitForElement.until(ExpectedConditions.textToBePresentInElement(By.id("content"), message));
 
         return driver.getPageSource().contains(message);
 

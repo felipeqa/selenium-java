@@ -10,9 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DetailsAuctionsPage {
 
     private final WebDriver driver;
+    private WebDriverWait waitForElement;
 
     public DetailsAuctionsPage(WebDriver driver){
        this.driver = driver;
+       this.waitForElement = new WebDriverWait(driver, 10);
    }
 
    public void bidRegister(String name, int value){
@@ -27,7 +29,7 @@ public class DetailsAuctionsPage {
     public boolean bidValidate(String name, double value){
 
 
-        boolean containsUser = new WebDriverWait(driver, 10)
+        boolean containsUser = waitForElement
                 .until(ExpectedConditions.textToBePresentInElement(By.id("lancesDados"), name));
 
         if(containsUser) return driver.getPageSource().contains(String.valueOf(String.valueOf(value)));

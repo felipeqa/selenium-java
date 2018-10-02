@@ -11,7 +11,6 @@ import static org.junit.Assert.assertTrue;
 public class SubmitBidTests {
     private WebDriver driver;
     private HomePage home ;
-    private UsersPage newUser;
     private DetailsAuctionsPage bidRegister;
 
     @Before
