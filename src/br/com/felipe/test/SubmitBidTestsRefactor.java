@@ -19,17 +19,25 @@ public class SubmitBidTestsRefactor {
         driver.get("http://localhost:8080/apenas-teste/limpa");
         home = new HomePage(driver);
 
-        ScenariosCreator scenariosCreator = new ScenariosCreator(driver);
-        scenariosCreator.createUser("Felipe", "felipe@felipe");
+        // Implementation default with void
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        ScenariosCreator scenariosCreator = new ScenariosCreator(driver);
+//        scenariosCreator.createUser("Felipe", "felipe@felipe");
+//
+//        try {
+//            Thread.sleep(500);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
+//        scenariosCreator.createUser("Luis", "luis@luis");
+//        scenariosCreator.addAuction("Geladeira", 50,"Felipe", false);
 
-        scenariosCreator.createUser("Luis", "luis@luis");
-        scenariosCreator.addAuction("Geladeira", 50,"Felipe", false);
+        // Implementation alternative with return this
+        new ScenariosCreator(driver)
+                .createUser("Felipe", "felipe@felipe")
+                .createUser("Luis", "luis@luis")
+                .addAuction("Geladeira", 50,"Felipe", false);
     }
 
     @After

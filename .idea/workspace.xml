@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf84d53d-fb64-43ca-b7e4-0c47f01deced" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTestsRefactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/ScenariosCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/ScenariosCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/ScenariosCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/ScenariosCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/SubmitBidTestsRefactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testes-de-sistemas/br/com/felipe/test/SubmitBidTestsRefactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTestsRefactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTestsRefactor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,24 +57,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="109" />
+          <entry key="java" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="109" />
+          <entry key="JAVA" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="3548" />
+          <entry key="java" value="3718" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3548" />
+          <entry key="JAVA" value="3718" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -96,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/ScenariosCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="190">
+              <caret line="21" column="107" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="60">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +119,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTestsRefactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+            <state relative-caret-position="55">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/DetailsAuctionsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,7 +224,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538502957991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538503808224" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -338,21 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuctionsSystemTests - 2018.10.02 at 14h 23m 52s.xml">
-      <configuration name="AuctionsSystemTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuctionsSystemTests_addNewAuction - 2018.10.02 at 14h 25m 54s.xml">
-      <configuration name="AuctionsSystemTests.addNewAuction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuctionsSystemTests_addNewAuctionWithoutInitialValue - 2018.10.02 at 14h 25m 56s.xml">
-      <configuration name="AuctionsSystemTests.addNewAuctionWithoutInitialValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AuctionsSystemTests - 2018.10.02 at 14h 26m 19s.xml">
-      <configuration name="AuctionsSystemTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubmitBidTests - 2018.10.02 at 14h 26m 40s.xml">
-      <configuration name="SubmitBidTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SubmitBidTests_submitBidWithDetailsIndex - 2018.10.02 at 14h 34m 07s.xml">
       <configuration name="SubmitBidTests.submitBidWithDetailsIndex" configurationId="JUnit" />
     </history-entry>
@@ -366,6 +362,21 @@
       <configuration name="UserSystemTestWithPageObjects" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 14h 50m 58s.xml">
+      <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 14h 53m 24s.xml">
+      <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 14h 55m 40s.xml">
+      <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 14h 57m 58s.xml">
+      <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 15h 07m 13s.xml">
+      <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitBidTestsRefactor - 2018.10.02 at 15h 09m 01s.xml">
       <configuration name="SubmitBidTestsRefactor" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -626,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/DetailsAuctionsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -660,20 +661,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/ScenariosCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="60">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTests.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/ScenariosCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="190">
+          <caret line="21" column="107" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/DetailsAuctionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -682,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/felipe/test/SubmitBidTestsRefactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        <state relative-caret-position="55">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
         </state>
       </provider>
     </entry>
