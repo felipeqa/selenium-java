@@ -24,7 +24,7 @@ public class UserSystemTestWithPageObjects {
     @Before
     public void initialize(){
         driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/apenas-teste/limpa");
+        driver.get(new URLApplication().getUrlBase() + "/apenas-teste/limpa");
         home = new HomePage(driver);
         home.visitHome();
         users = home.usersLink();

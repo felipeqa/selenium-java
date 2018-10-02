@@ -17,7 +17,7 @@ public class UserSystemTest {
     @Before
     public void initialize(){
         driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/usuarios/new");
+        driver.get(new URLApplication().getUrlBase() + "/usuarios/new");
     }
 
     @After

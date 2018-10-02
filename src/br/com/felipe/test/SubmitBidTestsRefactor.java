@@ -16,7 +16,7 @@ public class SubmitBidTestsRefactor {
     @Before
     public void initialize(){
         driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/apenas-teste/limpa");
+        driver.get(new URLApplication().getUrlBase() + "/apenas-teste/limpa");
         home = new HomePage(driver);
 
         // Implementation default with void

@@ -12,7 +12,7 @@ public class HomePage {
     }
 
     public void visitHome(){
-        driver.get("http://localhost:8080/");
+        driver.get(new URLApplication().getUrlBase());
     }
 
     public UsersPage usersLink(){

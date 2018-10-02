@@ -6,6 +6,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class AuctionsSystemTests {
 
      private WebDriver driver;
@@ -18,7 +20,10 @@ public class AuctionsSystemTests {
     public void initialize(){
 
         driver = new FirefoxDriver();
-        driver.get("http://localhost:8080/apenas-teste/limpa");
+        // implicit  wait
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        driver.get(new URLApplication().getUrlBase() + "/apenas-teste/limpa");
         home = new HomePage(driver);
         home.visitHome();
         UsersPage user = home.usersLink();
